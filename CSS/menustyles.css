@@ -56,14 +56,21 @@ li {
 
 .foods {
     background: #FF8D8B;
-    padding: 5px;
-    margin: 20px;
+    padding: 2em;
+    margin: 15px;
     border: 1px solid #FF8D8B;
     text-align: center;
 }
 
 .foods img {
-    width: 300px;
-    height: 300px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
+.foods .water {
+    max-height: 50%;
+}
+
+.foods .tea {
+    max-height: 50%;
+}
