@@ -1,0 +1,49 @@
+body {
+    background: #F6D891;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Restaurant {
+    color: tomato;
+    text-align: center;
+}
+
+span {
+    color: whitesmoke;
+}
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+}
+
+nav {
+    display: block;
+}
+
+.container ul {
+    display: grid;
+    grid-gap: 5px;
+    padding: 0;
+    margin: 1em;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    font-size: 1.3em;
+}
+
+li {
+    display: list-item;
+    text-align: inherit;
+}
+
+.topbar a {
+    background: #FFEEC6;
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+}

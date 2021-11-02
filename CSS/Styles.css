@@ -1,0 +1,98 @@
+body {
+    background: #F6D891;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Restaurant {
+    color: tomato;
+    text-align: center;
+}
+
+span {
+    color: whitesmoke;
+}
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+}
+
+nav {
+    display: block;
+}
+
+.container ul {
+    display: grid;
+    grid-gap: 5px;
+    padding: 0;
+    margin: 1em;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    font-size: 1.3em;
+}
+
+li {
+    display: list-item;
+    text-align: inherit;
+}
+
+.topbar a {
+    background: #FFEEC6;
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.abouts {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.about {
+    background: #FF8D8B ;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #FF8D8B;
+    text-align: center;
+}
+
+h3 {
+    display: block;
+    font-size: 1.1em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bolder;
+}
+
+.abouts p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-block-end: 0px;
+    padding-bottom: 5px;
+}
+
+.hotdish {
+    background: #FF8D8B;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    align-items: center;
+}
+
+.hotdish img {
+    max-width: 100%;
+}
+
+.hotdish-desc {
+    text-align: center;
+}
