@@ -47,3 +47,23 @@ li {
     text-transform: uppercase;
     font-weight: bolder;
 }
+
+.menu {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.foods {
+    background: #FF8D8B;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #FF8D8B;
+    text-align: center;
+}
+
+.foods img {
+    width: 300px;
+    height: 300px;
+}
+
